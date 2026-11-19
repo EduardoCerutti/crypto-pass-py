@@ -2,7 +2,7 @@
 """Crypto Pass for the terminal. Generates the same passwords as the app.
 
 Needs Argon2 bindings: `sudo apt install python3-argon2` on Debian,
-or `pip install argon2-cffi` elsewhere.
+or `pip install -r requirements.txt` elsewhere.
 
 Usage: crypto-pass.py [--fast] [site] [counter]
 The passphrase and password are always asked for without echo, so they never
